@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>RPL Self-Assessment</title>
+<!--
+  RPL self-assessment: front door for the email sign-in (Apps Script v3.9.0 / learner app v3.6.0).
+  Shows the app full-window. Because the app is inside this page, Google leaves off its
+  "This application was created by a Google Apps Script user / Report abuse" strip.
+  Nothing here is secret: the app asks for an email sign-in code before anything else.
+  If the Apps Script web app address ever changes, change the src below (keep ?page=assessment on the end).
+-->
+<style>
+  html, body { margin: 0; height: 100%; background: #F0F4FB; }
+  iframe { display: block; width: 100%; height: 100%; border: 0; }
+</style>
+</head>
+<body>
+<iframe src="https://script.google.com/macros/s/AKfycbxirPSkgxQIK_TaxDejekQVcgVzvoOAS4vo9WvmHE4IqOkhpKW3FWrAGiGpJYJVXEEI/exec?page=assessment"
+        title="RPL Self-Assessment" allow="clipboard-write"></iframe>
+</body>
+</html>
